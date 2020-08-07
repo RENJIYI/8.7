@@ -1,0 +1,305 @@
+body,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0;padding: 0;font-weight: normal;
+    list-style: none;
+    -webkit-text-size-adjust:none
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+html{
+    font-size: 13.3333333vw;
+}
+.fix{
+    width: 100%;height: 0.2rem;
+    position: fixed;
+    background: #fff5dc;
+    z-index: 1;
+}
+/* 导航栏 */
+.nav{
+    width: 100%;height: 0.48rem;
+    position: absolute;
+    left: 0;top: 0.2rem;
+    margin: auto;
+}
+.nav-0{
+    width: 0.64rem;height: 0.168rem;
+    position: absolute;
+    left: 1.4rem;top: 50%;margin-top: -0.084rem;
+    font-size: 0.128rem;
+    text-align: center;
+    float: left;
+    font-weight: normal;
+    color: #1e50ae;
+    cursor: pointer;
+}
+.nav-right{
+    width: 3rem;height: 0.48rem;
+    margin-left: 50%;
+}
+.nav-1{
+    width: 0.4rem;height: 0.48rem;
+    border: 0.004rem solid #fff ;
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.056rem;
+    line-height: 0.48rem;
+    cursor: pointer;
+    float: left;
+}
+.nav-1:nth-child(1):hover{
+    background: #1e50ae;
+    color: #fff;
+}
+.nav-1:nth-child(3):hover{
+    background: #1e50ae;
+    color: #fff;
+}
+.nav-1:nth-child(5):hover{
+    background: #1e50ae;
+    color: #fff;
+}
+.nav-1:nth-child(6):hover{
+    background: #1e50ae;
+    color: #fff;
+}
+.nav-1:nth-child(7):hover{
+    background: #1e50ae;
+    color: #fff;
+}
+.nav-1:nth-child(8):hover{
+    background: #1e50ae;
+    color: #fff;
+}
+.banner{
+    width: 100%;height: 1.2rem;
+    position: absolute;
+    top: 0.68rem;
+    background: url(../img/18.jpg);
+    background-size: contain;
+}
+/* product */
+.product{
+    width: 100%;
+    height: 5.32rem;
+    position: absolute;
+    top: 1.88rem;
+}
+.product-top{
+    width: 4.8rem;height: 0.768rem;
+    position:absolute ;
+    top: 0.376rem;left: 1.4rem;
+}
+.product-top-item{
+    width: 4.68rem;height: 0.216rem;
+    position: relative;
+    left: 0.08rem;
+    box-shadow: 0 0 0.02rem #d9d9d9;
+    float: left;
+    cursor: pointer;
+}
+.product-top-item-font-1{
+    width: 0.26rem;height: 0.216rem;
+    position: absolute;
+    left: 0.088rem;
+    font-size: 0.064rem;
+    text-align: center;
+    font-family: '微软雅黑';
+    line-height: 0.216rem;
+    color: #000;
+    float: left;
+}
+.product-top-item-font-2{
+    width: 0.26rem;height: 0.216rem;
+    position: absolute;
+    right: 0;
+    font-size: 0.08rem;
+    text-align: center;
+    font-family: '微软雅黑';
+    line-height: 0.216rem;
+    color: #b2b2b2;
+    float: right;
+}
+.product-bottom{
+    width: 4.68rem;height: 3.772rem;
+    position: absolute;
+    top: 0.376rem;left: 1.48rem;
+    box-shadow: 0 0 5px #d9d9d9;
+}
+.product-bottom-item{
+    width: 1.048rem;height: 1.148rem;
+    position: relative;
+    margin: 0.048rem 0.056rem;
+    float: left;
+}
+.product-bottom-img-1{
+    width: 1.04rem;height: 1.04rem;
+    position: absolute;
+    float: left;
+    border: 0.04rem solid #f2f2f2;
+    background: url(../img/27.jpg);
+    background-size: contain;
+}
+.product-bottom-img-2{
+    width: 1.04rem;height: 1.04rem;
+    position: absolute;
+    float: left;
+    border: 0.04rem solid #f2f2f2;
+    background: url(../img/28.jpg);
+    background-size: contain;
+}
+.product-bottom-img-3{
+    width: 1.04rem;height: 1.04rem;
+    position: absolute;
+    float: left;
+    border: 0.04rem solid #f2f2f2;
+    background: url(../img/29.jpg);
+    background-size: contain;
+}
+.product-bottom-font{
+    width: 1.04rem;height: 0.08rem;
+    position: absolute;
+    text-align: center;
+    margin-top: 1.068rem;
+    line-height: 0.08rem;
+    font-size:0.056rem;
+    font-family: '微软雅黑';
+}
+
+
+
+
+/* 技术支持 */
+.technical{
+    width: 100%;height: 3.216rem;
+    position: absolute;
+    top: 7.2rem;
+    background: url(../img/7.jpg);
+    background-size: contain;
+}
+.technical-title-1{
+    width: 1.244rem;height: 0.192rem;
+    position: absolute;
+    top: 0.74rem;left: 1.6rem;
+    color: #fff;
+    font-size: 0.144rem;
+    font-family: '微软雅黑';
+    line-height: 0.192rem;
+}
+.technical-title-2{
+    width: 1.288rem;height: 0.184rem;
+    position: absolute;
+    top: 0.932rem;left: 1.6rem;
+    color: #a1c1ee;
+    font-size: 0.12rem;
+    font-family: '微软雅黑';
+    line-height: 0.184rem;
+}
+b{
+    width: 0.25924rem;height: 0.16rem;
+    position: absolute;
+    top: 1.12rem;
+    left: 1.6rem;
+    color: #a1c1ee;
+    font-size: 0.12rem;
+}
+.technical-img-top{
+    width: 2.4rem;height: 1.112rem;
+    position: absolute;
+    left: 50%;top:0.4rem;
+}
+.technical-img-top-1{
+    width: 1.2rem;height: 1.112rem;
+    float: left;
+    background: url(../img/8.jpg);
+    background-size: contain;
+}
+.technical-img-top-2{
+    width: 1.2rem;height: 1.112rem;
+    float: right;
+    background:#fff
+}
+.technical-img-bottom{
+    width: 5rem;height: 1.112rem;
+    position: absolute;
+    top: 1.512rem;left: 50%;
+    margin-left: -2.4rem;
+    float: left;
+}
+.technical-img-bottom-1{
+    width: 1.2rem;height: 1.112rem;
+    float: left;
+    background:#fff
+}
+.technical-img-bottom-2{
+    width: 1.2rem;height: 1.112rem;
+    float: left;
+    background: url(../img/9.jpg);
+    background-size: contain;
+}
+.technical-img-bottom-3{
+    width: 1.2rem;height: 1.112rem;
+    float: left;
+    background: #fff
+}
+.technical-img-bottom-4{
+    width: 1.2rem;height: 1.112rem;
+    float: left;
+    background: url(../img/10.jpg);
+    background-size: contain;
+}
+/* 底部 */
+.bottom{
+    width: 100%;height: 1.304rem;
+    position: absolute;
+    top: 10.416rem;
+    background: rgb(52,52,52)
+}
+.bottom-title{
+    width: 3rem;height: 0.104rem;
+    position: absolute;
+    top: 0.212rem;left: 50%;
+    margin-left: -1.444rem;
+}
+.bottom-title-item{
+    width: 0.224rem;height: 0.076rem;
+    margin-right: 0.2rem;
+    text-align: center;
+    float: left;
+    line-height: 0.076rem;
+    font-size: 0.056rem;
+    font-family: '微软雅黑';
+    color: #b2b2b2;
+}
+.bottom-call{
+    width: 5.04rem;height: 0.6rem;
+    position: absolute;
+    top: 0.476rem;
+    left: 50%;
+    margin-left: -2.52rem;
+    border-top: 0.008rem solid rgb(60,60,60)
+}
+.bottom-call-1{
+    width: 0.404rem;height: 0.076rem;
+    position: absolute;
+    top: 0.12rem;left: 50%;
+    margin-left: -0.202rem;
+    text-align: center;
+    line-height: 0.076rem;
+    font-size: 0.056rem;
+    font-family: '微软雅黑';
+    color: #737373;
+}
+.bottom-call-2{
+    width: 0.816rem;height: 0.18rem;
+    position: absolute;
+    top: 0.2rem;left: 50%;
+    margin-left: -0.408rem;
+    text-align: center;
+    line-height: 0.18rem;
+    font-size: 0.136rem;
+    font-family: '微软雅黑';
+    color: #d9d9d9;
+}
